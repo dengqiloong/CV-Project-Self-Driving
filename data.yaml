@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Car', 'Pedestrian', 'Truck']
+
+roboflow:
+  workspace: masterarbeit-d3frz
+  project: r-s_5k
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/masterarbeit-d3frz/r-s_5k/dataset/5
